@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f86624;
+}
+
+body {
+    background-color: #662e9b ;
+    margin: 0;
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #edf2f4 ;
+}
+
+#one 
+{
+    background-color: #000000;
+    border-width: 5px;
+    margin: 120px;
+
+    width: 450px;
+
+}
+
+
+h1
+{
+    color: #f9c80e;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+span#highlight-color
+{
+    color: #43bccd;
+}
+
+span#highlight-color:hover
+{
+    color:#f86624;
+}
+
+#two {
+    background-color: lightblue;
+border-radius: 10%;
+padding: 25px;
+
+}
+
+.social-media{
+    width: 20px;
+    text-align: center;
+}
+
+
+.social-media img{
+    width: 50px;
+    margin: 0 14px;
+}
+
+/*
+
+2b2d42 - black
+8d99ae - gray
+edf2f4 - white
+ef233c - red
+d90429 - darkred
+
+
+f9c80e - yellow
+f86624 - orange
+ea3546 - red
+43bccd - teal
+*/
