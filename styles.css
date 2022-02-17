@@ -1,85 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.header
-{
-    min-height: 100vh;
-    width: 100%;
-    background-color: #f86624;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap");
 body {
-    background-color: #662e9b ;
-    margin: 0;
-
+  background-color: #fefae0;
 }
 
-div {
-    width: 200px;
-    height: 200px;
-    background-color: #edf2f4 ;
+h1 {
+  color: #283618;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 60px;
 }
 
-#one 
-{
-    background-color: #000000;
-    border-width: 5px;
-    margin: 120px;
+h2 {
+  color: #dda15e;
 
-    width: 450px;
-
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  padding-left: 40px;
 }
 
-
-h1
-{
-    color: #f9c80e;
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    padding-left: 40px;
+p {
+  font-family: "Roboto", sans-serif;
+  color: #fefae0;
+  font-size: 25px;
+  padding-left: 20px;
 }
 
-p
-{
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    padding-left: 20px;
+span#highlight-color {
+  color: #fefae0;
 }
 
-
-span#highlight-color
-{
-    color: #43bccd;
+span#highlight-color:hover {
+  color: #ea3546;
 }
 
-span#highlight-color:hover
-{
-    color:#f86624;
+@media (max-width: 600px) {
+  body {
+    background-color: #f86624;
+  }
 }
 
-#two {
-    background-color: lightblue;
-border-radius: 10%;
-padding: 25px;
+/* INDEX 1 SETTINGS*/
 
+.intro-grid {
+  position: relative;
+  row-gap: 4.5rem;
+  padding-top: 4;
+  background-color: #dda15e;
 }
 
-.social-media{
-    width: 20px;
-    text-align: center;
+.pepe {
+  text-align: center;
+  background-color: red;
+  margin: 40px;
 }
 
-
-.social-media img{
-    width: 50px;
-    margin: 0 14px;
+.container {
+  text-align: center;
+  margin: 40px;
 }
 
+.default-width {
+}
+
+.profile-img {
+  width: 220px;
+  border-radius: 80%;
+  margin-left: 40px;
+}
+
+.social-media {
+  margin-top: 1rem;
+}
+
+.section-title {
+  color: black;
+  text-transform: uppercase;
+}
+
+/* HIKING HOLLY*/
+
+.hiking-holly-img {
+  width: 500px;
+}
+
+.project {
+  background-color: #f4978e;
+  border: 2px solid black;
+}
+
+.intro-greeting {
+  color: #283618;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.intro-name {
+  color: #283618;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+.intro-education {
+  color: #283618;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 /*
 
 2b2d42 - black
