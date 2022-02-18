@@ -1,3 +1,58 @@
-:root {
-  --header-height: 3rem;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Serif:wght@600&display=swap");
+
+body {
+  font-family: "Merriweather", serif;
+  color: #e07a5f;
+  background-color: #f4f1de;
+}
+
+.default-view {
+  background-color: #3d405b;
+  margin: 0 6% 5px;
+}
+
+.intro-grid {
+  display: grid;
+  height: 30vh;
+  grid-gap: 20px;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contentBox-1 {
+  grid-area: "cb1";
+  background-color: black;
+}
+.contentBox-2 {
+  grid-area: "cb2";
+  background-color: green;
+}
+
+.profile-img {
+  width: 300px;
+}
+/* .content1 {
+  grid-area: contentOne;
+
+  margin: 10px;
+  background-color: #81b29a;
+  text-align: center;
+  grid-column: 1;
+}
+.content2 {
+  grid-area: contentTwo;
+  margin: 10px;
+  grid-column: 2;
+
+  background-color: #f2cc8f;
+  text-align: center;
+} */
+
+@media (max-width: 600px) {
+  .intro-grid {
+    display: flex;
+    grid-template-areas:
+      "cb2"
+      "cb1";
+  }
 }
