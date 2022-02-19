@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+*
+{
+    scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+}
+
+.hero{
+    width: 500px;
+    height: 500px;
+    padding:44px;
+    color:#ffffff;
+    margin: 0 auto;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.profile-picture
+{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    border:3px solid #4cc9f0;
+}
+.profile-picture:hover
+{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    border:3px solid #fca311;
+}
+.name-highlight
+{
+color:#4cc9f0;
+}
+
+h1{
+    font-weight: 100%;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+p
+{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.line-break{
+    width:340px;
+    margin:0 auto;
+    border-top: 2px solid #fca311;
+}
+
+.line-break:hover
+{
+    border-top: 2px solid #4cc9f0;
+
+}
+.social-icons{
+    margin-top: 10px;
+    font-size:32px;
+}
+.social-icons a{
+    color:white
+}
+.social-icons a:hover{
+    color:#e5e5e5;
+}
+
+.name-highlight:hover{
+    color:#fca311;
+}
+.title-highlight:hover
+{
+    color:#fca311;
+}
+.greetings-highlight:hover
+{
+    color:#fca311;
+}
+
+.fa-github{
+    color:#e5e5e5;
+}
+.fa-github:hover{
+    color: #fca311;
+}
+.fa-twitch {
+    color: #7209b7;
+  }
+  .fa-twitch:hover {
+    color: #fca311;
+  }
+
+.fa-linkedin{
+    color: #2867B2;
+}
+.fa-linkedin:hover{
+    color: #fca311;
+}
