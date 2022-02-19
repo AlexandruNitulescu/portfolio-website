@@ -1,124 +1,98 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Serif:wght@600&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: #fefae0;
-}
-
-h1 {
-  color: #283618;
-  font-family: "Roboto Serif", sans-serif;
-  font-size: 60px;
-}
-
-h2 {
-  color: #dda15e;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 60px;
-  padding-left: 40px;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  font-family: "Merriweather", serif;
   color: #fefae0;
-  font-size: 25px;
-  padding-left: 20px;
+  background-color: #283618;
+  padding: 50px 0;
+  line-height: 1.5;
 }
 
-span#highlight-color {
-  color: #fefae0;
+
+.default-view {
+  margin: 0 6% 5px;
 }
 
-span#highlight-color:hover {
-  color: #ea3546;
-}
-
-@media (max-width: 600px) {
-  body {
-    background-color: #f86624;
-  }
-}
-
-/* INDEX 1 SETTINGS*/
+/*HERO SECTION*/
 
 .intro-grid {
-  position: relative;
-  row-gap: 4.5rem;
-  padding-top: 4;
-  background-color: #dda15e;
+  display: grid;
+  height: 50vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "content1 content2";
+  grid-gap: 0px;
+  
+}
+div#content1 h1{
+  padding-top: 40px;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+#content1 p{
+  font-size: clamp(1rem, 2vw, 1rem);
 }
 
-.pepe {
+
+#content1 {
+  grid-area: content1;
+  text-align:center;
+  background-color: #ACC196
+}
+
+
+.highlight-greetings
+{
+  color:#e07a5f;
+}
+
+#content2 {
+padding-top: 20px;
+  grid-area: content2;
+  background-color: #5e6951;
   text-align: center;
-  background-color: red;
-  margin: 40px;
-}
 
-.container {
-  text-align: center;
-  margin: 40px;
-}
-
-.default-width {
 }
 
 .profile-img {
-  width: 220px;
-  border-radius: 80%;
-  margin-left: 40px;
+  width: 35vw;
+  border-radius: 60%;
 }
 
-.social-media {
-  margin-top: 1rem;
+
+
+.contacts
+{
+  margin-top: 60px;
+  background-color: #14080E;
+  width: 100%;
+  height: 500px;
+}
+.projects-grid{
+  display: grid;
+  height:50vh;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 3rem;
 }
 
-.section-title {
-  color: black;
-  text-transform: uppercase;
+.project
+{
+border: 3px solid #14080E;
+background-color: #ffffff;  
+padding:6px;
 }
 
-/* HIKING HOLLY*/
-
-.hiking-holly-img {
-  width: 500px;
+@media (max-width: 500px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "content2"
+      "content1";
+  }
 }
-
-.project {
-  background-color: #f4978e;
-  border: 2px solid black;
-}
-
-.intro-greeting {
-  color: #283618;
-  font-family: "Roboto Serif", sans-serif;
-  font-size: 20px;
-  text-transform: lowercase;
-}
-
-.intro-name {
-  color: #283618;
-  font-family: "Roboto Serif", sans-serif;
-  font-size: 30px;
-  text-transform: lowercase;
-}
-
-.intro-education {
-  color: #283618;
-  font-family: "Roboto Serif", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-/*
-
-2b2d42 - black
-8d99ae - gray
-edf2f4 - white
-ef233c - red
-d90429 - darkred
-
-
-f9c80e - yellow
-f86624 - orange
-ea3546 - red
-43bccd - teal
-*/
